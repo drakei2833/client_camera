@@ -4,6 +4,8 @@ import time
 
 
 camera = PiCamera()
+camera.resolution = (3280, 2464)
+#determine resolution of final picture
 camera.rotation = 180
 #initiate pi camera and rotate by 180 degree
 
